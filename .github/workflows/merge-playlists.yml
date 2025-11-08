@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          ref: main   # ✅ Explicitly checkout main branch
 
       - name: Download External Playlists
         run: |
@@ -62,8 +64,6 @@ jobs:
 
           git add merged_playlist.m3u
           git commit -m "Fast auto-merge playlists (every 2 min)" --allow-empty
-
-          git pull --rebase origin main || true
           git push origin main
 
       - name: Upload merged playlist artifact (optional)
