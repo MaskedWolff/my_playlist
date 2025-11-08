@@ -3,7 +3,7 @@ name: Ultimate Playlist Merge (Fast)
 on:
   push:
     paths:
-      - 'my_playlist/my_playlist.m3u'
+      - 'my_playlist'
   schedule:
     - cron: '*/2 * * * *'   # ⏱ Runs every 2 minutes
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
 
       - name: Download External Playlists
         run: |
-          set -e
+          set +e
           echo "⬇️ Downloading external playlists..."
           curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u" -o external_jstar.m3u || echo "⚠️ JStar playlist failed"
           curl -fsSL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o external_fancode.m3u || echo "⚠️ Fancode playlist failed"
@@ -34,6 +34,7 @@ jobs:
 
       - name: Merge Playlists
         run: |
+          set +e
           echo "#EXTM3U" > merged_playlist.m3u
           echo "# --- JStar Playlist ---" >> merged_playlist.m3u
           [ -f external_jstar.m3u ] && cat external_jstar.m3u >> merged_playlist.m3u
@@ -48,7 +49,11 @@ jobs:
           echo "# --- Sonyliv Events Playlist ---" >> merged_playlist.m3u
           [ -f external_sonyliv.m3u ] && cat external_sonyliv.m3u >> merged_playlist.m3u
           echo "# --- Local Playlist ---" >> merged_playlist.m3u
-          cat my_playlist/my_playlist.m3u >> merged_playlist.m3u
+          if [ -f my_playlist ]; then
+            cat my_playlist >> merged_playlist.m3u
+          else
+            echo "⚠️ Local playlist not found (my_playlist)" >> merged_playlist.m3u
+          fi
           echo "✅ Merge complete."
 
       - name: Commit and Push if Updated
