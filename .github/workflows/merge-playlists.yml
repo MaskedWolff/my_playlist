@@ -20,7 +20,8 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
-          ref: main   # ✅ Explicitly checkout main branch
+          persist-credentials: true
+          fetch-depth: 0   # Ensure full history for pushing
 
       - name: Download External Playlists
         run: |
@@ -57,14 +58,15 @@ jobs:
           fi
           echo "✅ Merge complete."
 
-      - name: Commit and Push Merged Playlist
+      - name: Commit and Push to Auto-Merge Branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+          git checkout -B auto-merge   # Create or switch to auto-merge branch
           git add merged_playlist.m3u
           git commit -m "Fast auto-merge playlists (every 2 min)" --allow-empty
-          git push origin main
+          git push origin auto-merge --force
 
       - name: Upload merged playlist artifact (optional)
         uses: actions/upload-artifact@v4
