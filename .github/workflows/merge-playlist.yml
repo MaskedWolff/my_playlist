@@ -55,7 +55,7 @@ jobs:
           rm "$temp"
           echo "✅ Merge complete."
 
-      # 5️⃣ Commit & Push merged playlist
+      # 5️⃣ Commit & Push merged playlist (128 error free)
       - name: Commit and Push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -64,5 +64,5 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add merged_playlist.m3u
           git commit -m "Auto-merge playlists" --allow-empty
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+          git push origin main
           echo "✅ Merged playlist pushed to repo."
