@@ -3,9 +3,9 @@ name: Ultimate Playlist Merge (Stable & Deduplicated)
 on:
   push:
     paths:
-      - 'my_playlist'   # Trigger when your playlist changes
+      - 'my_playlist'
   schedule:
-    - cron: '*/2 * * * *'   # Runs every 2 minutes
+    - cron: '*/2 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,7 +20,6 @@ jobs:
         shell: bash
         run: |
           echo "⬇️ Downloading external playlists..."
-          # Array of URLs and output filenames
           declare -A playlists=(
             ["external_jstar.m3u"]="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u"
             ["external_fancode.m3u"]="https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u"
@@ -32,8 +31,10 @@ jobs:
 
           for file in "${!playlists[@]}"; do
             url="${playlists[$file]}"
-            echo "Downloading $file from $url ..."
-            curl -fsSL "$url" -o "$file" || echo "⚠️ Failed to download $file, skipping."
+            echo "Downloading $file ..."
+            if ! curl -fsSL "$url" -o "$file"; then
+              echo "⚠️ Failed to download $file, skipping."
+            fi
           done
 
       - name: Merge and Deduplicate Playlists
@@ -41,8 +42,6 @@ jobs:
         run: |
           echo "#EXTM3U" > merged_playlist.m3u
           declare -A seen
-
-          # All playlists: external + your playlist
           files=(external_jstar.m3u external_fancode.m3u external_willow.m3u external_z5.m3u external_sony.m3u external_sonyliv.m3u my_playlist)
 
           for file in "${files[@]}"; do
@@ -55,16 +54,20 @@ jobs:
             echo "# --- $section_name ---" >> merged_playlist.m3u
 
             while IFS= read -r line; do
-              [[ "$line" =~ ^#EXT ]] && echo "$line" >> merged_playlist.m3u && continue
-              [[ -z "$line" ]] && continue
-              if [[ -z "${seen[$line]}" ]]; then
-                echo "$line" >> merged_playlist.m3u
-                seen[$line]=1
-              fi
+              case "$line" in
+                \#EXT*) echo "$line" >> merged_playlist.m3u ;;
+                "") continue ;;
+                *) 
+                  if [ -z "${seen[$line]}" ]; then
+                    echo "$line" >> merged_playlist.m3u
+                    seen[$line]=1
+                  fi
+                  ;;
+              esac
             done < "$file"
           done
 
-          echo "✅ Merge complete. Your playlist + external playlists are merged and deduplicated."
+          echo "✅ Merge complete."
 
       - name: Commit if Updated
         shell: bash
@@ -73,9 +76,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add merged_playlist.m3u
           if ! git diff --cached --quiet; then
-            echo "📝 Changes detected. Committing updated merged playlist..."
             git commit -m "Auto-merge playlists (deduplicated)"
             git pull origin main --rebase || echo "⚠️ Pull failed, continuing..."
             git push origin main || echo "⚠️ Push failed"
           else
-            echo "ℹ️ No changes detected in merged_playlist.m3u"
+            echo "ℹ️ No changes detected."
