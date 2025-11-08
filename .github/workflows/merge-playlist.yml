@@ -3,16 +3,18 @@ name: Ultimate Playlist Merge
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'  # Har 30 minutes
+    - cron: '*/2 * * * *'  # Har 2 minutes
 
 jobs:
   merge:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout the repo
+      # 1️⃣ Checkout the repo with full history
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Full history required for push
 
       # 2️⃣ Download your playlist
       - name: Download Your Playlist
@@ -53,7 +55,7 @@ jobs:
           rm "$temp"
           echo "✅ Merge complete."
 
-      # 5️⃣ Commit & push merged playlist
+      # 5️⃣ Commit & Push merged playlist
       - name: Commit and Push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
