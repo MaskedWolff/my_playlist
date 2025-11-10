@@ -1,4 +1,4 @@
-name: Ultimate Playlist Merge (M3U Fixed)
+name: Ultimate Playlist Merge (Fixed)
 
 on:
   push:
@@ -18,32 +18,28 @@ jobs:
 
       - name: Download External Playlists
         run: |
-          set -e
           echo "⬇️ Downloading external playlists..."
-          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u" -o external_jstar.m3u || echo "⚠️ JStar playlist failed"
-          curl -fsSL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o external_fancode.m3u || echo "⚠️ Fancode playlist failed"
-          curl -fsSL "https://raw.githubusercontent.com/abid58b/WillowLivePlaylist/refs/heads/main/willowlive.m3u" -o external_willow.m3u || echo "⚠️ Willow playlist failed"
-          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u" -o external_z5.m3u || echo "⚠️ Z5 playlist failed"
-          curl -fsSL "https://raw.githubusercontent.com/himanshu-temp/m3u/refs/heads/main/sony.m3u" -o external_sony.m3u || echo "⚠️ Sony playlist failed"
-          curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u" -o external_sonyliv.m3u || echo "⚠️ Sonyliv playlist failed"
+          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u" -o external_jstar.m3u || echo "⚠️ JStar failed"
+          curl -fsSL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o external_fancode.m3u || echo "⚠️ Fancode failed"
+          curl -fsSL "https://raw.githubusercontent.com/abid58b/WillowLivePlaylist/refs/heads/main/willowlive.m3u" -o external_willow.m3u || echo "⚠️ Willow failed"
+          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u" -o external_z5.m3u || echo "⚠️ Z5 failed"
+          curl -fsSL "https://raw.githubusercontent.com/himanshu-temp/m3u/refs/heads/main/sony.m3u" -o external_sony.m3u || echo "⚠️ Sony failed"
+          curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u" -o external_sonyliv.m3u || echo "⚠️ Sonyliv failed"
 
-      - name: Merge Playlists with Proper M3U Format
+      - name: Merge Playlists
         run: |
           echo "#EXTM3U" > merged_playlist.m3u
           for f in external_jstar.m3u external_fancode.m3u external_willow.m3u external_z5.m3u external_sony.m3u external_sonyliv.m3u my_playlist; do
             if [ -f "$f" ]; then
-              name=$(basename "$f" .m3u)
               echo "" >> merged_playlist.m3u
-              echo "# --- $name Playlist ---" >> merged_playlist.m3u
-              # Filter lines safely: keep EXTINF and URLs only
+              echo "# --- $(basename "$f" .m3u) ---" >> merged_playlist.m3u
               grep -E '^(#EXTINF|http)' "$f" >> merged_playlist.m3u || true
             fi
           done
-          # Remove duplicate URLs while keeping headers
           if [ -s merged_playlist.m3u ]; then
             awk '!seen[$0]++ || /^# ---/' merged_playlist.m3u > tmp && mv tmp merged_playlist.m3u
           fi
-          echo "✅ Merge complete. Playlist ready for players."
+          echo "✅ Merge complete."
 
       - name: Commit if Updated
         run: |
@@ -51,7 +47,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add merged_playlist.m3u
           if ! git diff --cached --quiet; then
-            git commit -m "Update merged_playlist.m3u with fixed M3U format"
+            git commit -m "Update merged_playlist.m3u"
             git pull origin main --rebase
             git push origin main
           else
