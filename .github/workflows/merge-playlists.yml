@@ -1,11 +1,11 @@
-name: Ultimate Playlist Merge (Fast)
+name: Ultimate Playlist Merge (M3U Fixed)
 
 on:
   push:
     paths:
       - 'my_playlist'
   schedule:
-    - cron: '*/2 * * * *'   # ⏱ Runs every 2 minutes
+    - cron: '*/2 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -27,18 +27,21 @@ jobs:
           curl -fsSL "https://raw.githubusercontent.com/himanshu-temp/m3u/refs/heads/main/sony.m3u" -o external_sony.m3u || echo "⚠️ Sony playlist failed"
           curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u" -o external_sonyliv.m3u || echo "⚠️ Sonyliv playlist failed"
 
-      - name: Merge Playlists Safely
+      - name: Merge Playlists with Proper M3U Format
         run: |
           echo "#EXTM3U" > merged_playlist.m3u
-          echo "⬇️ Merging external playlists..."
-          for f in external_*.m3u; do
-            [ -f "$f" ] && grep -hv "^#EXTM3U" "$f" >> merged_playlist.m3u || true
+          for f in external_jstar.m3u external_fancode.m3u external_willow.m3u external_z5.m3u external_sony.m3u external_sonyliv.m3u my_playlist; do
+            if [ -f "$f" ]; then
+              name=$(basename "$f" .m3u)
+              echo "" >> merged_playlist.m3u
+              echo "# --- $name Playlist ---" >> merged_playlist.m3u
+              # Filter lines: keep EXTINF and URLs only, remove extra text
+              grep -E '^(#EXTINF|http)' "$f" >> merged_playlist.m3u
+            fi
           done
-          echo "⬇️ Adding local playlist..."
-          grep -hv "^#EXTM3U" my_playlist >> merged_playlist.m3u || true
-          echo "🗂 Removing duplicate URLs..."
-          sort -u merged_playlist.m3u -o merged_playlist.m3u
-          echo "✅ Merge complete."
+          # Remove duplicate URLs while keeping headers
+          awk '!seen[$0]++ || /^# ---/' merged_playlist.m3u > tmp && mv tmp merged_playlist.m3u
+          echo "✅ Merge complete. Playlist ready for players."
 
       - name: Commit if Updated
         run: |
@@ -46,8 +49,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add merged_playlist.m3u
           if ! git diff --cached --quiet; then
-            echo "📝 Changes detected. Committing updated playlist..."
-            git commit -m "Auto-merge my_playlist with remote playlists"
+            git commit -m "Update merged_playlist.m3u with fixed M3U format"
             git pull origin main --rebase
             git push origin main
           else
