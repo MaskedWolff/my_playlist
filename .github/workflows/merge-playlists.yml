@@ -10,7 +10,7 @@ on:
       - main
 
 permissions:
-  contents: write  # ✅ Allow workflow to commit & push changes
+  contents: write  # allow git push
 
 jobs:
   merge:
@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # Prevent auto GitHub token issues
+          persist-credentials: false  # prevent auto GitHub token issues
 
       - name: Setup git credentials
         env:
@@ -34,7 +34,11 @@ jobs:
         run: |
           echo "Fetching remote playlists..."
           mkdir -p temp
+
+          # Your playlist
           curl -L "https://raw.githubusercontent.com/MaskedWolff/my-shop/refs/heads/main/my_playlist" -o temp/maskedwolff.m3u
+
+          # Other remote playlists
           curl -L "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u" -o temp/jstar.m3u
           curl -L "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o temp/fancode.m3u
           curl -L "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u" -o temp/z5.m3u
@@ -44,6 +48,7 @@ jobs:
       - name: Merge all playlists (local + remote)
         run: |
           echo "#EXTM3U" > merged_playlist.m3u
+
           echo "Merging local playlists..."
           find playlists -type f -name "*.m3u" -exec grep -hv "^#EXTM3U" {} \; > temp/all.txt || true
 
@@ -52,21 +57,28 @@ jobs:
 
           echo "Removing duplicates..."
           sort -u temp/all.txt >> merged_playlist.m3u
+
           echo "✅ Merged playlist created: merged_playlist.m3u"
 
       - name: Commit and push merged playlist safely
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Skip push for forked repos
           if [ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.repository }}" ]; then
             echo "🛑 This is a forked PR — skipping push for safety."
-            exit 0
+          else
+            git add merged_playlist.m3u
+            if git diff --cached --quiet; then
+              echo "No new changes."
+            else
+              git commit -m "Auto-merge all playlists (local + remote)"
+              git push
+            fi
           fi
 
-          git add merged_playlist.m3u
-          if git diff --cached --quiet; then
-            echo "No new changes."
-          else
-            git commit -m "Auto-merge all playlists (local + remote)"
-            git push
-          fi
+      - name: Upload merged playlist as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: merged-playlist
+          path: merged_playlist.m3u
