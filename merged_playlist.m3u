@@ -1488,6 +1488,8 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTINF:-1 tvg-id="2355" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1762859311~exp=1762945711~acl=/*~hmac=5da448503250af33134c46862b4e12653c412bf6d2c1c5caf122660dff01c858&xxx=%7Ccookie=__hdnea__=st=1762859311~exp=1762945711~acl=/*~hmac=5da448503250af33134c46862b4e12653c412bf6d2c1c5caf122660dff01c858
 # --- external_fancode ---
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/137560_5720_ROM-W_VAL-W_fc-web.jpg" group-title="Fancode-Football", Roma Women vs Valerenga Fotball Women (UEFA Women's Champions League 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/137560_english_hls_596c893cac80432_1ta-di_h264/index.m3u8
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
@@ -1669,7 +1671,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1762922963~acl=/*~id=98603789163065435078227167570179~hmac=f5877098f709a85313753eb6ad2c7b790b699641a4b96cd8ac37b0ec411a39b8
 # --- external_sonyliv ---
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011089/1762779609232352_nitto_atp_finals_group-stage_landscape_thumb-3.jpg" group-title="sonyliv-Tennis", Cash/Glasspool vs Krawietz/Puetz - Group Stage - 11 Nov 2025 [ENG] - Nitto ATP Finals 2025
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1762924792~acl=/*~id=27113844589233489621566002681057~hmac=dc712d0de75b89c4257d7254f6e040a6ec42e07fe9536f793f91eb719f31b586
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1762926010~acl=/*~id=18205409860770954988525226534065~hmac=2e1c8c70a2671d5e179f7d50bea3c1e42b233cab564eb730c69f8f12463bb18b
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
