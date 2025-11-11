@@ -1668,8 +1668,8 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1762907405~acl=/*~id=48204b0390cc49888b8507685173f43c-1755427161715~hmac=7b2c6bc86b7ff0c259a0982e9d63c93bac00f11c65d4e82ee65f56aab3755417
 # --- external_sonyliv ---
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011089/1762779609232352_nitto_atp_finals_group-stage_landscape_thumb-3.jpg" group-title="sonyliv-Tennis", Granollers/Zeballos vs Bolelli/Vavassori - 11 Nov 2025 [ENG] - Nitto ATP Finals 2025
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1762904078~acl=/*~id=47805387805686350971038515665405~hmac=a95d83d31c28d6af2e116e2d99ce58c2a9fd4a4813b27802a9d005c9ea1daf43
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011099/1762840225992957_NittoATPFinals2025_Alcaraz_vs_Fritz_landscape_thumb.jpg" group-title="sonyliv-Tennis", Alcaraz vs Fritz - 11 Nov 2025 [ENG] - Nitto ATP Finals 2025
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1762911374~acl=/*~id=34451246595857176620593696874606~hmac=a50b135022ec8e6cc99aa1df4b25dc1bebecbee13bd5898813cd16cbd572e3cf
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
