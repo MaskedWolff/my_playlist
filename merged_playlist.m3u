@@ -1669,7 +1669,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1762912591~acl=/*~id=60651257889749915112307468721341~hmac=4a5e46b8afdcfa96f2651f360b4cdc5b791a13d1c8b40ae3dec74c094d3b0a18
 # --- external_sonyliv ---
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011099/1762840225992957_NittoATPFinals2025_Alcaraz_vs_Fritz_landscape_thumb.jpg" group-title="sonyliv-Tennis", Alcaraz vs Fritz - 11 Nov 2025 [ENG] - Nitto ATP Finals 2025
-https://liveakmt-p.slivcdn.com/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1762913818~acl=/*~id=53910752532398084496355236613055~hmac=5ff3e516ae39d9d3c9987e74d59a420d046439631ac4d73f505ca03befacd89a
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1762915036~acl=/*~id=62215870930372962441132139388763~hmac=13f34f763547df482e954299b92993cc8b714d4ce06305f89e3dcc6cc72ad9e9
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
