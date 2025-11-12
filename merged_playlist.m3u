@@ -1669,7 +1669,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1762988044~acl=/*~id=76972481447479529685818806011242~hmac=300ec89c3a822902ba427ae54adef920ae98300e1d2ab593403e7a9c4d8f84fc
 # --- external_sonyliv ---
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011089/1762779609232352_nitto_atp_finals_group-stage_landscape_thumb-3.jpg" group-title="sonyliv-Tennis", Heliovaara/Patten vs Skupski/Salisbury  - 12 Nov 2025 [ENG] - Nitto ATP Finals 2025
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1762989264~acl=/*~id=03326414171022694620198982673893~hmac=e9bf427db0f452439662bbed2c50d7a4f113369da8978fe050047f55a8139243
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1762990484~acl=/*~id=84216050676645851693784525043123~hmac=413a3ca6427691531ea6d1e2c5d50891e806dd0b3892130e379af135a836a925
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
