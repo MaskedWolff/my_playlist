@@ -1673,7 +1673,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1763015400~acl=/*~id=48204b0390cc49888b8507685173f43c-1755427161715~hmac=22cadb4afd8b86066f4428a00dc119a0aa5fbe06d8ab3b3fe493c8511a6990a9
 # --- external_sonyliv ---
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011089/1762779609232352_nitto_atp_finals_group-stage_landscape_thumb-3.jpg" group-title="sonyliv-Tennis", Pavic/Arevalo vs King/Harrison  - 12 Nov 2025 [ENG] - Nitto ATP Finals 2025
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763016059~acl=/*~id=07552198440493159039353295565855~hmac=9d51f631f1c331188026a51fc7e0f92ff95188918eb743852ce29e5f1fe3310a
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763017278~acl=/*~id=20509575292857194576285216698983~hmac=ee871949f33508ab752c1a39e8de0ed77d5f6f76e5e6e64686dd9025fc8017af
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
