@@ -1490,8 +1490,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea
 # --- external_fancode ---
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BAN-vs-IRE_old-match-card.png" group-title="Fancode-Cricket", Ireland vs Bangladesh (Ireland tour of Bangladesh, 2025)
 https://in-mc-fdlive.fancode.com/mumbai/138237_english_hls_3626c1011421704_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134025_5609_WAU_QUN_fc-Web.jpg" group-title="Fancode-Cricket", Queensland vs Western Australia (Sheffield Shield, 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/134025_english_hls_f309bf133777942_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/137950_5744_ISP-W_VER-W_fc-web.jpg" group-title="Fancode-Football", ISPE WFC vs Tokyo Verdy Beleza (AFC Women's Champions League 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/137950_english_hls_69cdeb4da837047_1adfreeta-di_h264/index.m3u8
 # --- external_willow ---
@@ -1674,6 +1672,8 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1762950605~acl=/*~id=48204b0390cc49888b8507685173f43c-1755427161715~hmac=c84db042f236830690e22bee726dee1a451f719d529500268d3df197d3531f86
 # --- external_sonyliv ---
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011089/1762779609232352_nitto_atp_finals_group-stage_landscape_thumb-3.jpg" group-title="sonyliv-Tennis", Group Stage - 12 Nov 2025 [ENG] - Nitto ATP Finals 2025
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1762985607~acl=/*~id=17800604973393873803432205357692~hmac=5eda2e46eb94a371de8054f271a2dfdd36f1122e77a88af5fd83ac5305966967
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
