@@ -1488,10 +1488,10 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTINF:-1 tvg-id="2355" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1763118474~exp=1763204874~acl=/*~hmac=38fa2b11cbaf834fb41fb278f6b522d072c7e26d4965ef7f5d184d0937e0c261&xxx=%7Ccookie=__hdnea__=st=1763118474~exp=1763204874~acl=/*~hmac=38fa2b11cbaf834fb41fb278f6b522d072c7e26d4965ef7f5d184d0937e0c261
 # --- external_fancode ---
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Butterfield-Bermuda-Championship_2025_match-card_OLd_match-card.jpg" group-title="Fancode-Golf", Day 2 vs Port Royal Golf Course - Southampton, Bermuda (Butterfield Bermuda Championship)
-https://in-mc-fdlive.fancode.com/mumbai/137978_english_hls_c0f2f2c28e47805_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1/138060_CASACARDS_APP.png" group-title="Fancode-Football", Real Valladolid vs Las Palmas (LALIGA Hypermotion 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/138060_english_hls_95776d147e11786_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Butterfield-Bermuda-Championship_2025_match-card_OLd_match-card.jpg" group-title="Fancode-Golf", Day 2 vs Port Royal Golf Course - Southampton, Bermuda (Butterfield Bermuda Championship)
+https://in-mc-fdlive.fancode.com/mumbai/137978_english_hls_c0f2f2c28e47805_1ta-di_h264/index.m3u8
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
@@ -1673,17 +1673,17 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1763189667~acl=/*~id=00063648503580363527593896690608~hmac=2c7fbd3c5edc0f517c14abcb9eae55349055070c2311fcc9a2bcc61d4b6cf838
 # --- external_sonyliv ---
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000010902/1762355881582408_EQFs_MD9_Luxembourg_vs_Germany_3nov_landscape_thumb.jpg" group-title="sonyliv-Football", Luxembourg vs Germany - MD 9 - 15 Nov 2025 [ENG] - European Qualifiers For 2026 FIFA World Cup
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763190883~acl=/*~id=12634428544484034786224544165931~hmac=175a4e2bfbb7f47a1e9101e1edfa1ec1611a3a4ddcaec6450cae4820aba24d9d
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763192104~acl=/*~id=77402052667194049235901931849291~hmac=8ae3f872d5025349ab30209504bf48eb7f381c246c6ffd1fcc82097b1e95a186
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000010903/1762355980698901_EQFs_MD9_Poland_vs_Netherlands_3nov_landscape_thumb.jpg" group-title="sonyliv-Football", Poland vs Netherlands - MD 9 - 15 Nov 2025 [ENG] - European Qualifiers For 2026 FIFA World Cup
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763190883~acl=/*~id=12634428544484034786224544165931~hmac=175a4e2bfbb7f47a1e9101e1edfa1ec1611a3a4ddcaec6450cae4820aba24d9d
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763192104~acl=/*~id=77402052667194049235901931849291~hmac=8ae3f872d5025349ab30209504bf48eb7f381c246c6ffd1fcc82097b1e95a186
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000010902/1762354932594408_EQFs_MD9_Croatia_vs_Faroe_Islands_3nov_landscape_thumb.jpg" group-title="sonyliv-Football", Croatia vs Faroe Islands - MD 9 - 15 Nov 2025 [ENG] - European Qualifiers For 2026 FIFA World Cup
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763190883~acl=/*~id=12634428544484034786224544165931~hmac=175a4e2bfbb7f47a1e9101e1edfa1ec1611a3a4ddcaec6450cae4820aba24d9d
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763192104~acl=/*~id=77402052667194049235901931849291~hmac=8ae3f872d5025349ab30209504bf48eb7f381c246c6ffd1fcc82097b1e95a186
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011090/1762774745294255_ATP_FINALS_Zverev-vs-Auger-Aliassime_landscape_thumb.jpg" group-title="sonyliv-Tennis", Alexander Zverev vs Felix Auger-Alliassime - Group Stage - 15 Nov 2025 [ENG] - Nitto ATP Finals 2025
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763190883~acl=/*~id=12634428544484034786224544165931~hmac=175a4e2bfbb7f47a1e9101e1edfa1ec1611a3a4ddcaec6450cae4820aba24d9d
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763192104~acl=/*~id=77402052667194049235901931849291~hmac=8ae3f872d5025349ab30209504bf48eb7f381c246c6ffd1fcc82097b1e95a186
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000010903/1762356118317901_EQFs_MD9_Slovakia_vs_Northern_Ireland_3nov_landscape_thumb.jpg" group-title="sonyliv-Football", Slovakia vs Northern Ireland - MD 9 - 15 Nov 2025 [ENG] - European Qualifiers For 2026 FIFA World Cup
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763190883~acl=/*~id=12634428544484034786224544165931~hmac=175a4e2bfbb7f47a1e9101e1edfa1ec1611a3a4ddcaec6450cae4820aba24d9d
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763192104~acl=/*~id=77402052667194049235901931849291~hmac=8ae3f872d5025349ab30209504bf48eb7f381c246c6ffd1fcc82097b1e95a186
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000010902/1762355044786408_EQFs_MD9_Gibraltar_vs_Montenegro_3nov_landscape_thumb.jpg" group-title="sonyliv-Football", Gibraltar vs Montenegro - MD 9 - 15 Nov 2025 [ENG] - European Qualifiers For 2026 FIFA World Cup
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763190883~acl=/*~id=12634428544484034786224544165931~hmac=175a4e2bfbb7f47a1e9101e1edfa1ec1611a3a4ddcaec6450cae4820aba24d9d
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763192104~acl=/*~id=77402052667194049235901931849291~hmac=8ae3f872d5025349ab30209504bf48eb7f381c246c6ffd1fcc82097b1e95a186
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
