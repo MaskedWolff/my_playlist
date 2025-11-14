@@ -1488,10 +1488,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTINF:-1 tvg-id="2355" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1763118474~exp=1763204874~acl=/*~hmac=38fa2b11cbaf834fb41fb278f6b522d072c7e26d4965ef7f5d184d0937e0c261&xxx=%7Ccookie=__hdnea__=st=1763118474~exp=1763204874~acl=/*~hmac=38fa2b11cbaf834fb41fb278f6b522d072c7e26d4965ef7f5d184d0937e0c261
 # --- external_fancode ---
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138243_5765_IN-A_UAE_fc-web_1763068129174.jpg" group-title="Fancode-Cricket", India A vs United Arab Emirates (ACC Asia Cup Rising Stars 2025)
-https://sonypartnersdaimenew.akamaized.net/hls/live/2022318/DAI24ME-ACRSM/master.m3u8?hdnea=exp=1763162741~acl=/*~id=64265660912735607501577113591518~hmac=d209f0728774515c69da06137b14cf2136e3ee66b7bf7d2c04d0a991d0a00c93
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Motul-Grand-Prix-of-the-Valencian-Community-old-match-card-.png" group-title="Fancode-MotoGP", Day 1 vs Circuit Ricardo Tormo (MOTUL GRAND PRIX OF THE VALENCIAN COMMUNITY)
-https://in-mc-fdlive.fancode.com/mumbai/119293_english_hls_db2cad252b95519_1ta-di_h264/index.m3u8
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
@@ -1672,10 +1668,6 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1763175041~acl=/*~id=96952923429372367948076032487101~hmac=f87ab8c9639e2f5bf41f71dbc904feae6a6d905164e40588906835903de1f2b2
 # --- external_sonyliv ---
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011196/1763029458986238_AsiaCup_India_vs_UAE_12nov_live_Landscape_thumb.jpg" group-title="sonyliv-Cricket", India A vs UAE - 14 Nov 2025  [ENG] - DP World Asia Cup Rising Stars Men's 2025
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763176260~acl=/*~id=03474011346802754617542121307388~hmac=3c37097b7a1144f59e3098187af9356e194aaf2db969848708b831d2c7c81de3
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011090/1762770886201255_ATP_FINALS_Sinner-vs-Shelton_landscape_thumb.jpg" group-title="sonyliv-Tennis", Sinner vs Shelton - Group Stage - 14 Nov 2025 [ENG] - Nitto ATP Finals 2025
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1763176260~acl=/*~id=03474011346802754617542121307388~hmac=3c37097b7a1144f59e3098187af9356e194aaf2db969848708b831d2c7c81de3
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
