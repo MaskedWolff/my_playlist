@@ -1494,6 +1494,8 @@ https://sonypartnersdaimenew.akamaized.net/hls/live/2022318/DAI24ME-ACRSM/master
 https://in-mc-fdlive.fancode.com/mumbai/134025_english_hls_f309bf133729011_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/DP-WORLD_Old_match-card_2.jpg" group-title="Fancode-Golf", Day 2 vs Jumeirah Golf Estates, Earth Course (DP World Tour Championship, Dubai)
 https://india-mpv2.fancode.com/out/v1/ap-south-1/137168_english_137168/hls-h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Motul-Grand-Prix-of-the-Valencian-Community-old-match-card-.png" group-title="Fancode-MotoGP", Day 1 vs Circuit Ricardo Tormo (MOTUL GRAND PRIX OF THE VALENCIAN COMMUNITY)
+https://in-mc-fdlive.fancode.com/mumbai/119293_english_hls_db2cad252b95519_1ta-di_h264/index.m3u8
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
@@ -1675,7 +1677,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1763148236~acl=/*~id=88441762453223161599893658386916~hmac=937904c11015088088a0c89cf3058cf01e0b22cacb2903465dccac27b2d6b714
 # --- external_sonyliv ---
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011205/1763036732581604_AsiaCup_PakA_vs_OMA_12nov_live_landscape_thumb.jpg" group-title="sonyliv-Cricket", Pakistan A vs Oman - 14 Nov 2025  [ENG] - DP World Asia Cup Rising Stars Men's 2025
-https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763149456~acl=/*~id=95304013101453191008337536062482~hmac=b235bc4da6947b4380583fe80c98d94a23a03fc1b6940de7efb58db66c0f96b5
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763150065~acl=/*~id=95117195164078043701192554292921~hmac=153ae59010800481198dce4ec2d3f9e3036a5a995347326741c23b21f877e466
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
