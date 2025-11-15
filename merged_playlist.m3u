@@ -1492,6 +1492,8 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea
 https://sonypartnersdaimenew.akamaized.net/hls/live/2022318/DAI24ME-ACRSM/master.m3u8?hdnea=exp=1763231115~acl=/*~id=45871726592580759643017348842107~hmac=e4e2fdbb60526e0cfe5bb3651fb3f92597dc06786ea6b584860ddb2356b4165d
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/DP-WORLD_Old_match-card_2.jpg" group-title="Fancode-Golf", Day 3 vs Jumeirah Golf Estates, Earth Course (DP World Tour Championship, Dubai)
 https://in-mc-fdlive.fancode.com/mumbai/137169_english_hls_6de9a985b168484_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Motul-Grand-Prix-of-the-Valencian-Community-old-match-card-.png" group-title="Fancode-MotoGP", Day 2 vs Circuit Ricardo Tormo (MOTUL GRAND PRIX OF THE VALENCIAN COMMUNITY)
+https://in-mc-fdlive.fancode.com/mumbai/119296_english_hls_e5b4dbdb6796898_1ta-di_h264/index.m3u8
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
@@ -1673,7 +1675,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1763232928~acl=/*~id=05056319919376436532190400499957~hmac=148d3d2a9390bf74b0e6ae32279f7632f2ea91b46cba2e137aff43411389d17c
 # --- external_sonyliv ---
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011268/1763132195071370_ACC25_BAN_A_vs_HongKong_Live_Landscape_thumb.jpg" group-title="sonyliv-Cricket", Bangladesh A vs Hong Kong, China - 15 Nov 2025  [ENG] - DP World Asia Cup Rising Stars Men's 2025
-https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763234758~acl=/*~id=02599801170506225462047882544588~hmac=d31bc70b15038f6700d6e921ae894e6b59dd4d18535091be03ee7e7737d07e74
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763235368~acl=/*~id=49745658481427961655967746226025~hmac=09f330c9354e0f086447374a2b211d5c4641b1edb30e0512eb06234e04a066db
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
