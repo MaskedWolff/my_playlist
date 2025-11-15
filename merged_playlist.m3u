@@ -1488,8 +1488,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTINF:-1 tvg-id="2355" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1763244223~exp=1763330623~acl=/*~hmac=db881bc4aba0631789ca257007be281baa3cb3f04900a6bd3d86c7ddca7bf4e8&xxx=%7Ccookie=__hdnea__=st=1763244223~exp=1763330623~acl=/*~hmac=db881bc4aba0631789ca257007be281baa3cb3f04900a6bd3d86c7ddca7bf4e8
 # --- external_fancode ---
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Racing-Club_vs_Granada_Old.jpg" group-title="Fancode-Football", Racing Club vs Granada (LALIGA Hypermotion 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/138061_english_hls_92570eb54d18154_1ta-di_h264/index.m3u8
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
