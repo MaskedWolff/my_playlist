@@ -24,7 +24,7 @@ jobs:
           curl -fsSL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o external_fancode.m3u || echo "⚠️ Fancode playlist failed"
           curl -fsSL "https://raw.githubusercontent.com/abid58b/WillowLivePlaylist/refs/heads/main/willowlive.m3u" -o external_willow.m3u || echo "⚠️ Willow playlist failed"
           curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u" -o external_z5.m3u || echo "⚠️ Z5 playlist failed"
-          curl -fsSL "https://raw.githubusercontent.com/himanshu-temp/m3u/refs/heads/main/sony.m3u" -o external_sony.m3u || echo "⚠️ Sony playlist failed"
+          # Removed Himanshu's sony.m3u as requested
           curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u" -o external_sonyliv.m3u || echo "⚠️ Sonyliv playlist failed"
 
       - name: Download Your Playlist
@@ -35,7 +35,7 @@ jobs:
       - name: Merge Playlists
         run: |
           echo "#EXTM3U" > merged_playlist.m3u
-          for f in external_jstar.m3u external_fancode.m3u external_willow.m3u external_z5.m3u external_sony.m3u external_sonyliv.m3u your_playlist.m3u; do
+          for f in external_jstar.m3u external_fancode.m3u external_willow.m3u external_z5.m3u external_sonyliv.m3u your_playlist.m3u; do
             if [ -f "$f" ]; then
               echo "" >> merged_playlist.m3u
               echo "# --- $(basename "$f" .m3u) ---" >> merged_playlist.m3u
@@ -51,7 +51,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add merged_playlist.m3u
           if ! git diff --cached --quiet; then
-            git commit -m "Auto‑merge playlists (external + yours)"
+            git commit -m "Auto-merge playlists (external + yours)"
             git pull origin main --rebase
             git push origin main
           else
