@@ -1675,7 +1675,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1763329891~acl=/*~id=24617897150102140779346279324164~hmac=446bf348e01365b1e238d34db0daad5873733d5f52b0d8cf94ab4fbd7d858014
 # --- external_sonyliv ---
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011345/1763214919816370_ACC25_UAE_vs_OMA_live_Landscapet_thumb.jpg" group-title="sonyliv-Cricket", UAE vs Oman - 16 Nov 2025  [ENG] - DP World Asia Cup Rising Stars Men's 2025
-https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763331715~acl=/*~id=51540687044518773334422559344640~hmac=c0318441028db9463aec5ec4e3cccf9487af546dd27e5491d5d045fdb210963d
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763332323~acl=/*~id=62796667107285474341395180001737~hmac=f517b030a8f86dcc36da52b1036813354c691aba75d93aa688d1f86b37bb489a
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
