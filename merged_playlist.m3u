@@ -1490,8 +1490,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea
 # --- external_fancode ---
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Old_match-card_02.jpg" group-title="Fancode-Cricket", Janakpur Bolts vs Kathmandu Gurkhas (Nepal Premier League, 2025)
 https://in-mc-fdlive.fancode.com/mumbai/138293_english_hls_fd44d488d616019_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web_1763103330280.jpg" group-title="Fancode-Football", Wuhan Jiangda Women vs PFC Nasaf (AFC Women's Champions League 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/137949_english_hls_95b6b640d924221_1ta-di_h264/index.m3u8
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
