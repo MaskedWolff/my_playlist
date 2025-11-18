@@ -1488,6 +1488,12 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTINF:-1 tvg-id="2355" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1763464102~exp=1763550502~acl=/*~hmac=62a16ea2e903452c0e2fc532706a33f08f814d175e6949808524cf65c4360f6c&xxx=%7Ccookie=__hdnea__=st=1763464102~exp=1763550502~acl=/*~hmac=62a16ea2e903452c0e2fc532706a33f08f814d175e6949808524cf65c4360f6c
 # --- external_fancode ---
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138203_5763_QQY_NW_fc-web.png" group-title="Fancode-Cricket", Quetta Qavalry vs Northern Warriors (Abu Dhabi T10, 2025)
+https://in-mc-fdlive.fancode.com/mumbai/138203_english_hls_d109d4e23367626_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AFC-Asia-Cup-Qualifiers_Old_match-card.jpg" group-title="Fancode-Football", Bangladesh vs India (AFC Asia Cup Qualifiers)
+https://in-mc-fdlive.fancode.com/mumbai/137370_english_hls_f48e2ecbcb52142_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138251_5765_IN-A_OMN_fc-web_1763068128430.jpg" group-title="Fancode-Cricket", Oman vs India A (ACC Asia Cup Rising Stars 2025)
+https://sonypartnersdaimenew.akamaized.net/hls/live/2022318/DAI24ME-ACRSM/master.m3u8?hdnea=exp=1763519876~acl=/*~id=02467504661615490349260862895020~hmac=a1b125f4db61c415e58d324f9fdaca1ab55a6146c47a83b96ffcc13b8d397fa3
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
@@ -1668,6 +1674,8 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1763509912~acl=/*~id=26535976459089505018692972336625~hmac=6966e808a691ceaf9db1cb2fdd2816953b69a7b73db8087493c4c49b79041a13
 # --- external_sonyliv ---
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011453/1763378476540524_ACC25_INDA_vs_OMA_live_Landscape_thumb.jpg" group-title="sonyliv-Cricket", India A vs Oman - 18 Nov 2025  [ENG] - DP World Asia Cup Rising Stars Men's 2025
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763520812~acl=/*~id=14023141877954407147701946673136~hmac=20ac3a761fb89375ed477f0639627267c3183cfbdd8af2ea5178578f3793479c
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
