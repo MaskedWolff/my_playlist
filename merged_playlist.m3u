@@ -1488,8 +1488,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTINF:-1 tvg-id="2355" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1763464102~exp=1763550502~acl=/*~hmac=62a16ea2e903452c0e2fc532706a33f08f814d175e6949808524cf65c4360f6c&xxx=%7Ccookie=__hdnea__=st=1763464102~exp=1763550502~acl=/*~hmac=62a16ea2e903452c0e2fc532706a33f08f814d175e6949808524cf65c4360f6c
 # --- external_fancode ---
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/NPL_Biratnagar-Kings_vs_Pokhara-Avengers_Old_match-card_02.jpg" group-title="Fancode-Cricket", Biratnagar Kings vs Pokhara Avengers (Nepal Premier League, 2025)
-https://in-mc-fdlive.fancode.com/mumbai/138295_english_hls_35bd7ab90585502_1adfreeta-di_h264/index.m3u8
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
