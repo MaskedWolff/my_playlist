@@ -1488,10 +1488,10 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTINF:-1 tvg-id="2355" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1763550479~exp=1763636879~acl=/*~hmac=77a7fb20cf2001d1355112025607b99924f8338068b9c2a685253db35841fbcf&xxx=%7Ccookie=__hdnea__=st=1763550479~exp=1763636879~acl=/*~hmac=77a7fb20cf2001d1355112025607b99924f8338068b9c2a685253db35841fbcf
 # --- external_fancode ---
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138206_5763_ROC_VTR_fc-web.png" group-title="Fancode-Cricket", Vista Riders vs Royal Champs (Abu Dhabi T10, 2025)
-https://in-mc-fdlive.fancode.com/mumbai/138206_english_hls_9860bc688230231_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138253_5765_SL-A_BN-A_fc-web_1763068129266.jpg" group-title="Fancode-Cricket", Sri Lanka A vs Bangladesh A (ACC Asia Cup Rising Stars 2025)
 https://sonypartnersdaimenew.akamaized.net/hls/live/2022318/DAI24ME-ACRSM/master.m3u8?hdnea=exp=1763605323~acl=/*~id=64287428542929092539044165585397~hmac=712ce524068af5fd55de4c5d065fff45263738cc21bd0ac212ced3658fe6355a
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138207_5763_AJT_QQY_fc-web.png" group-title="Fancode-Cricket", Ajman Titans vs Quetta Qavalry (Abu Dhabi T10, 2025)
+https://in-mc-fdlive.fancode.com/mumbai/138207_english_hls_5230361d2f54310_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg" group-title="Fancode-Cricket", Trinidad & Tobago Red Force vs Barbados Pride (CG United Super50 Cup, 2025)
 https://in-mc-fdlive.fancode.com/mumbai/138045_english_hls_ab706196a2229_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg" group-title="Fancode-Cricket", Jamaica Scorpions vs Guyana Harpy Eagles (CG United Super50 Cup, 2025)
@@ -1679,7 +1679,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1763608853~acl=/*~id=73114977803844027764559252280002~hmac=56e129cb89ccd94af380c4bd45a6bfe8c202ed147249bdd456df41a4fc5a42db
 # --- external_sonyliv ---
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000011480/1763404513508453_ACRS25_SL_A_VS_BAN_A_17nov_Landscape_thumb.jpg" group-title="sonyliv-Cricket", Sri Lanka A vs Bangladesh A - 19 Nov 2025  [ENG] - DP World Asia Cup Rising Stars Men's 2025
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763610070~acl=/*~id=75837000932704139045820504225060~hmac=6d9caf123b1eedac109faef7c21fc5069537f0c15bec36ae01930b1259edbc6a
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1763611896~acl=/*~id=33367661670503500274955761841757~hmac=fbef9627b563ebffa1cd7bfa4746db3b6251c400fabdf52b851084586602ebdd
 # --- your_playlist ---
 #EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Dish TV", &TV SD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
