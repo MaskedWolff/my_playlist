@@ -1488,6 +1488,8 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTINF:-1 tvg-id="2355" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1763550479~exp=1763636879~acl=/*~hmac=77a7fb20cf2001d1355112025607b99924f8338068b9c2a685253db35841fbcf&xxx=%7Ccookie=__hdnea__=st=1763550479~exp=1763636879~acl=/*~hmac=77a7fb20cf2001d1355112025607b99924f8338068b9c2a685253db35841fbcf
 # --- external_fancode ---
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/137584_5720_JUV-W_OLY-W_fc-web.jpg" group-title="Fancode-Football", Juventus Women vs Olympique Lyonnais Women (UEFA Women's Champions League 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/137584_english_hls_c460e9f6ec94769_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/137583_5720_WOL-W_MUN-W_fc-web.jpg" group-title="Fancode-Football", VfL Wolfsburg Women vs Manchester United Women (UEFA Women's Champions League 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/137583_english_hls_04c50fde5622470_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg" group-title="Fancode-Cricket", Trinidad & Tobago Red Force vs Barbados Pride (CG United Super50 Cup, 2025)
@@ -1498,8 +1500,6 @@ https://in-mc-fdlive.fancode.com/mumbai/138044_english_hls_3cbc444e986818_1ta-di
 https://in-mc-fdlive.fancode.com/mumbai/138042_english_hls_37719ef62380360_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg" group-title="Fancode-Cricket", Leeward Islands Hurricanes vs Windward Islands Volcanoes (CG United Super50 Cup, 2025)
 https://in-mc-fdlive.fancode.com/mumbai/138046_english_hls_396bb5eb2159172_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/137584_5720_JUV-W_OLY-W_fc-web.jpg" group-title="Fancode-Football", Juventus Women vs Olympique Lyonnais Women (UEFA Women's Champions League 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/137584_english_hls_c460e9f6ec94769_1ta-di_h264/index.m3u8
 # --- external_willow ---
 # --- external_z5 ---
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
