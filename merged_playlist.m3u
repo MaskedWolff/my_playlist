@@ -1488,6 +1488,8 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTINF:-1 tvg-id="2355" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1763685835~exp=1763772235~acl=/*~hmac=1c183d97e3d1f922eed6826fb7a582dffe1f457f0fae9c73a84c4c64b0d193b4&xxx=%7Ccookie=__hdnea__=st=1763685835~exp=1763772235~acl=/*~hmac=1c183d97e3d1f922eed6826fb7a582dffe1f457f0fae9c73a84c4c64b0d193b4
 # --- external_fancode ---
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BAN-vs-IRE_old-match-card.png" group-title="Fancode-Cricket", Bangladesh vs Ireland (Ireland tour of Bangladesh, 2025)
+https://in-mc-fdlive.fancode.com/mumbai/138238_english_hls_3c279f8f2c58850_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Bahrain-Tour-to-Indonesia_2025_Old_match-card.jpg" group-title="Fancode-Cricket", Indonesia vs Bahrain (Bahrain tour of Indonesia, 2025)
 https://in-mc-fdlive.fancode.com/mumbai/138010_english_hls_7c0c47af7a28899_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138088_5758_TL-W_PN-W_FC-Web.jpg" group-title="Fancode-Cricket", Papua New Guinea Women vs Thailand Women (ICC Women's Emerging Nations Trophy, 2025)
